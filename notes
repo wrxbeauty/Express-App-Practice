@@ -7,4 +7,5 @@
 - Created repository and made inital commit
 - Add required modules in index.js file at the top
 - Initalize the app variable
+- Create new GET route with a path, parameters, and callback function
 - 
