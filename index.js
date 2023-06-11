@@ -7,7 +7,12 @@ const app = express()
 // Create Route
 app.get('/', function (req, res) {
     // This gets sent to client
-    res.send('Hey there!')
+    res.send('<h1 style="color:purple">Hey there!</h1>')
+})
+
+// Create Second Route
+app.get('/second', function (req, res) {
+    res.send('<h1 style="text-align:center">You Made It!</h1>')
 })
 
 // Listen 
