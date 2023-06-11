@@ -1,3 +1,4 @@
+Express App 
 - Create new project folder
 - Navigate to new project folder
 - Create new file index.js 
@@ -10,3 +11,11 @@
 - Create new GET route with a path and callback function with res.send
 - Call app.listen(3000) and possible callback function
 - Created second route with a path and callback function
+
+Rainbow Routes
+- Navigate to project and open up code editor of choice
+- Create a .env file
+- In the .env file add the Port the server will be listening on
+    - Command: npm i dotenv (This is to install node module and help with variables)
+- Require dotenv at the top of index.js
+- Change app.listen to (process.env.PORT)

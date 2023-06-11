@@ -1,3 +1,6 @@
+// Get enviornment variables
+require('dotenv').config()
+
 // Require modules
 const express = require('express')
 
@@ -16,6 +19,7 @@ app.get('/second', function (req, res) {
 })
 
 // Listen 
-app.listen(3000, function () {
-    console.log('I am working!')
-})
+// app.listen(3000, function () {
+//     console.log('I am working!')
+// })
+app.listen(process.env.PORT)
