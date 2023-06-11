@@ -1,4 +1,7 @@
 // Require modules
-let express = require('express')
+const express = require('express')
 
-let app = 
+// Initialize app
+const app = express()
+
+

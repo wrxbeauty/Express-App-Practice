@@ -4,4 +4,7 @@
 - Initalize and Install packages needed
     - Command: npm init -y (this initalizes and creates package.json)
     - Command: npm i express (this will make package-lock.json)
-- Created repository 
+- Created repository and made inital commit
+- Add required modules in index.js file at the top
+- Initalize the app variable
+- 
