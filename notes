@@ -19,3 +19,7 @@ Rainbow Routes
     - Command: npm i dotenv (This is to install node module and help with variables)
 - Require dotenv at the top of index.js
 - Change app.listen to (process.env.PORT)
+- Change homepage route to match styling and add in backticks
+- Add in more routes to match the color to the path
+- Remove crimson route
+- 
