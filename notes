@@ -22,4 +22,5 @@ Rainbow Routes
 - Change homepage route to match styling and add in backticks
 - Add in more routes to match the color to the path
 - Remove crimson route
+- Change teal route to /:color, add new variable and assign query parameter to it
 - 
